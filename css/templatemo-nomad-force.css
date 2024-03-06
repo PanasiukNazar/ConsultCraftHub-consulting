@@ -628,6 +628,32 @@ strong {
   color: rgba(255, 255, 255, 0.45);
   font-size: var(--copyright-text-font-size);
 }
+.info_contact {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.info_contact a:hover {
+    color: #ffc107;
+}
+.fwidget {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px
+}
+
+.fwidget a:hover {
+    color: #ffc107;
+}
+
+.site-footer .links {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.site-footer .links a:hover {
+    color: #ffc107;
+}
 
 /*---------------------------------------
   SOCIAL ICON               
